@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var port = process.env.port || 8080;
+var port = process.env.PORT || 80;
 /*global html*/
 
 // New code
